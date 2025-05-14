@@ -65,13 +65,13 @@ https://www.google.com - 200 OK - 103ms
 https://thisdoesnotexist.com - error: DNS resolution failed - 502ms
 
 ### File Input
-urls.txt
+sites.txt
 
 https://www.google.com
 
 https://thisdoesnotexist.com
 
-cargo run -- --file urls.txt --workers 4 --timeout 3 --retries 1
+cargo run -- --file sites.txt --workers 4 --timeout 3 --retries 1
 
 ## Output Details 
 ### Live Terminal Output:
