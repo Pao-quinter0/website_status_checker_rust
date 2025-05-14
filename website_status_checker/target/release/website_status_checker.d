@@ -1,0 +1,1 @@
+/workspaces/website_status_checker_rust/website_status_checker/target/release/website_status_checker: /workspaces/website_status_checker_rust/website_status_checker/src/main.rs
